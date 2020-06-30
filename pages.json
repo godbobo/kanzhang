@@ -1,0 +1,59 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"tabBar": {
+		"color": "#3c3c3c",
+		"selectedColor": "#32d992",
+		"borderStyle": "black",
+		"blurEffect": "extralight",
+		"spacing": "5px",
+		"height": "50px",
+		"list": [{
+			"pagePath": "pages/tabbar/index",
+			"iconPath": "static/img/tabbar/home.png",
+			"selectedIconPath": "static/img/tabbar/home-selected.png"
+		},
+		{
+			"pagePath": "pages/tabbar/stat",
+			"iconPath": "static/img/tabbar/stat.png",
+			"selectedIconPath": "static/img/tabbar/stat-selected.png"
+		},
+		{
+			"pagePath": "pages/tabbar/bill",
+			"iconPath": "static/img/tabbar/bill.png",
+			"selectedIconPath": "static/img/tabbar/bill-selected.png"
+		},{
+			"pagePath": "pages/tabbar/profile",
+			"iconPath": "static/img/tabbar/profile.png",
+			"selectedIconPath": "static/img/tabbar/profile-selected.png"
+		}]
+	},
+	"pages": [{
+			"path": "pages/tabbar/index",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/tabbar/profile"
+		},
+		{
+			"path":"pages/tabbar/bill"
+		},
+		{
+			"path":"pages/tabbar/stat"
+		}
+	],
+	"globalStyle": {
+		"pageOrientation": "portrait",
+		"navigationBarTitleText": "看账",
+		"navigationBarTextStyle":"black",
+		"navigationBarBackgroundColor":"#f7f7fa",
+		"backgroundColorTop": "#F4F5F6",
+		"backgroundColorBottom": "#F4F5F6",
+		"mp-360": {
+			"navigationStyle": "custom"
+		}
+	}
+}

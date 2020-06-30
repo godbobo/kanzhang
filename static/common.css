@@ -1,0 +1,245 @@
+body {
+	background-color: #f4f4f4;
+}
+
+.row {
+	display: flex;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.items-end {
+	align-items: flex-end;
+}
+
+.items-baseline {
+	align-items: baseline;
+}
+
+.padding {
+	padding: 10px 20rpx;
+}
+
+.margin-left {
+	margin-left: 20rpx;
+}
+
+.top-safe-area {
+	padding-top: var(--status-bar-height);
+}
+
+.bg-red {
+	background-color: #e54d42;
+	color: #ffffff;
+}
+
+.bg-orange {
+	background-color: #f37b1d;
+	color: #ffffff;
+}
+
+.bg-yellow {
+	background-color: #fbbd08;
+	color: #333333;
+}
+
+.bg-olive {
+	background-color: #8dc63f;
+	color: #ffffff;
+}
+
+.bg-green {
+	background-color: #39b54a;
+	color: #ffffff;
+}
+
+.bg-cyan {
+	background-color: #1cbbb4;
+	color: #ffffff;
+}
+
+.bg-blue {
+	background-color: #0081ff;
+	color: #ffffff;
+}
+
+.bg-purple {
+	background-color: #6739b6;
+	color: #ffffff;
+}
+
+.bg-mauve {
+	background-color: #9c26b0;
+	color: #ffffff;
+}
+
+.bg-pink {
+	background-color: #e03997;
+	color: #ffffff;
+}
+
+.bg-brown {
+	background-color: #a5673f;
+	color: #ffffff;
+}
+
+.bg-grey {
+	background-color: #8799a3;
+	color: #ffffff;
+}
+
+.bg-gray {
+	background-color: #f0f0f0;
+	color: #333333;
+}
+
+.bg-black {
+	background-color: #333333;
+	color: #ffffff;
+}
+
+.bg-white {
+	background-color: #ffffff;
+	color: #666666;
+}
+
+.text-red,
+.line-red,
+.lines-red {
+	color: #e54d42;
+}
+
+.text-orange,
+.line-orange,
+.lines-orange {
+	color: #f37b1d;
+}
+
+.text-yellow,
+.line-yellow,
+.lines-yellow {
+	color: #fbbd08;
+}
+
+.text-olive,
+.line-olive,
+.lines-olive {
+	color: #8dc63f;
+}
+
+.text-green,
+.line-green,
+.lines-green {
+	color: #39b54a;
+}
+
+.text-cyan,
+.line-cyan,
+.lines-cyan {
+	color: #1cbbb4;
+}
+
+.text-blue,
+.line-blue,
+.lines-blue {
+	color: #0081ff;
+}
+
+.text-purple,
+.line-purple,
+.lines-purple {
+	color: #6739b6;
+}
+
+.text-mauve,
+.line-mauve,
+.lines-mauve {
+	color: #9c26b0;
+}
+
+.text-pink,
+.line-pink,
+.lines-pink {
+	color: #e03997;
+}
+
+.text-brown,
+.line-brown,
+.lines-brown {
+	color: #a5673f;
+}
+
+.text-grey,
+.line-grey,
+.lines-grey {
+	color: #8799a3;
+}
+
+.text-gray,
+.line-gray,
+.lines-gray {
+	color: #aaaaaa;
+}
+
+.text-black,
+.line-black,
+.lines-black {
+	color: #333333;
+}
+
+.text-white,
+.line-white,
+.lines-white {
+	color: #ffffff;
+}
+
+.text-price::before {
+	content: "¥";
+	font-size: 80%;
+	margin-right: 4upx;
+}
+
+.text-cut {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-content {
+	line-height: 1.6;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-Abc {
+	text-transform: Capitalize;
+}
+
+.text-ABC {
+	text-transform: Uppercase;
+}
+
+.text-abc {
+	text-transform: Lowercase;
+}
